@@ -10,7 +10,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-
+        primary: 'hsl(0, 0%, 8%)',
+        secondary: 'hsl(0, 0%, 41%)',
+        rear: 'hsl(0, 0%, 98%)',
       },
     },
   },

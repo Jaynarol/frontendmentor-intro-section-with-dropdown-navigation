@@ -1,9 +1,9 @@
 import './globals.css'
 
 import type { Metadata } from 'next'
-import { Itim } from 'next/font/google'
+import { Epilogue } from 'next/font/google'
 
-const itim = Itim({ subsets: ['latin'], weight: ['400'] })
+const font = Epilogue({ subsets: ['latin'], weight: ['500', '700'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +16,7 @@ const RootLayout = ({
   children: React.ReactNode
 }) => (
   <html lang="en">
-    <body className={itim.className}>{children}</body>
+    <body className={font.className}>{children}</body>
   </html>
 )
 
