@@ -1,6 +1,12 @@
+# Live Demo
+https://jaynarol.github.io/frontendmentor-intro-section-with-dropdown-navigation
+
+Challenge from https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5
+
+
 # Frontend Mentor - Intro section with dropdown navigation
 
-![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Intro section with dropdown navigation coding challenge](./challenger/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
