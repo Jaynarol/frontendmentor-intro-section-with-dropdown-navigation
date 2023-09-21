@@ -7,15 +7,19 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  theme: {
-    extend: {
-      colors: {
+  darkMode: 'class',
+  plugins: [daisyui],
+  daisyui: {
+    themes: [{
+      mytheme: {
         primary: 'hsl(0, 0%, 8%)',
         secondary: 'hsl(0, 0%, 41%)',
-        rear: 'hsl(0, 0%, 98%)',
+        accent: 'hsl(0, 0%, 98%)',
+        neutral: 'hsl(0, 0%, 98%)',
+        'base-100': 'hsl(0, 0%, 98%)',
       },
-    },
+    }],
+    darkTheme: 'mytheme',
   },
-  plugins: [daisyui],
 }
 export default config

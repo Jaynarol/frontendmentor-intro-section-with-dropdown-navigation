@@ -1,7 +1,16 @@
+import Drawer from '@/components/Drawer'
+import Footer from '@/components/Footer'
+import Header from '@/components/Header'
+import Main from '@/components/Main'
+
 const Home = () => (
-  <main className="flex min-h-screen flex-col items-center justify-center bg-white text-lg dark:bg-slate-700">
-    Hello World!!
-  </main>
+  <div className="drawer drawer-end flex min-h-screen flex-col">
+    <input id="my-drawer" type="checkbox" className="drawer-toggle" />
+    <Header />
+    <Drawer />
+    <Main />
+    <Footer />
+  </div>
 )
 
 export default Home
