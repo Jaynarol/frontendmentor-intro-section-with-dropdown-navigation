@@ -6,7 +6,7 @@ const Footer = () => (
     .
     Coded by
     {' '}
-    <a href="https://jaynarol.github.io/frontendmentor-intro-section-with-dropdown-navigation" target="_blank" rel="noreferrer">Jaynarol</a>
+    <a href="https://github.com/Jaynarol/frontendmentor-intro-section-with-dropdown-navigation" target="_blank" rel="noreferrer">Jaynarol</a>
     .
   </footer>
 )
